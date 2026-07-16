@@ -5,32 +5,32 @@
 Acc-CBF-QP was introduced in:
 
 > **Safe Execution of RL Policies via Acceleration-based CBF-QP Constraint Enforcement for Real-World Robotic Deployments**
-> Bastien Muraccioli*, Alice Cariou*, Pierre-Alexandre Leziart, Mathieu Celerier, Arnaud Demont, Gentiane Venture, Mehdi Benallegue
+> Bastien Muraccioli, Alice Cariou, Pierre-Alexandre Leziart, Mathieu Celerier, Arnaud Demont, Gentiane Venture, Mehdi Benallegue
 > IROS 2026 — [Paper](https://hal.science/hal-05362571) · [Project page](https://safe-rl-qp.github.io/)
 
 This list tracks the ecosystem around the framework: the core implementation, install tooling, a starting template for new robots/policies, and community-built controllers. If you've built something on top of Acc-CBF-QP, please [add it](CONTRIBUTING.md)!
 
 ## Contents
 
-- [Core Framework](#core-framework)
+- [Paper Implementation](#paper-implementation)
 - [Getting Started](#getting-started)
 - [Community Controllers](#community-controllers)
 - [Related Projects](#related-projects)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Core Framework
+## Paper Implementation
 
 | Project | Description |
 |---|---|
-| [Acc-CBF-QP](TODO-core-framework-repo-url) | The core framework: acceleration-based CBF-QP safety filter for mc_rtc. Includes the version used in the IROS 2026 paper (see the `TODO-tag-name` tag). |
+| [Acc-CBF-QP](https://github.com/safe-rl-qp/mc-safe-rl-qp) | Archived source code of the acceleration-based CBF-QP safety filter for mc_rtc, at the state used for the IROS 2026 paper's experiments. |
 
 ## Getting Started
 
 | Project | Description |
 |---|---|
-| [Acc-CBF-QP Superbuild](TODO-superbuild-repo-url) | CMake superbuild that installs the full framework, dependencies, and a ready-to-run Unitree H1 policy example. Start here if you want to try it out. |
-| [Acc-CBF-QP Template](TODO-template-repo-url) | Template controller for adapting the framework to a new robot or a new RL policy. Includes a roadmap of planned features. |
+| [Acc-CBF-QP Superbuild](https://github.com/safe-rl-qp/safe-rl-qp-mc-rtc-superbuild) | CMake superbuild that installs the full framework, dependencies, and a ready-to-run Unitree H1 policy example. Start here if you want to try it out. |
+| [Acc-CBF-QP Template](https://github.com/bastien-muraccioli/new-rl-qp-controller) | Template controller for adapting the framework to a new robot or a new RL policy. Includes a roadmap of planned features. |
 
 ## Community Controllers
 
@@ -38,12 +38,15 @@ Controllers, robots, and RL policies built on top of the framework by the commun
 
 <!--
 Please keep this table sorted alphabetically by project name.
-Format: | [Project Name](link) | Robot | Author/Org | One-line description |
+Format: | [Project Name](link) | Robot | Author/Org | One-line description | Last commit badge |
+The "Last Updated" badge is a shields.io live badge — see CONTRIBUTING.md for the exact syntax.
 -->
 
-| Project | Robot | Author | Description |
-|---|---|---|---|
-| _Be the first to add yours!_ | | | |
+| Project | Robot | Author | Description | Last Updated |
+|---|---|---|---|---|
+| [hrp5p_rl_qp_controller](https://github.com/bastien-muraccioli/hrp5p_rl_qp_controller) | HRP5-p | Bastien Muraccioli, Hippolyte Leroy ([CNRS-AIST JRL](https://jrl-umi3218.github.io/)) | FSM walking policy | ![Last Commit](https://img.shields.io/github/last-commit/bastien-muraccioli/hrp5p_rl_qp_controller) |
+| [rl_controller](https://github.com/isri-aist/rl_controller) | Unitree H1 | Alice Cariou, Bastien Muraccioli, Pierre-Alexandre Leziart ([CNRS-AIST JRL](https://jrl-umi3218.github.io/)) | Gamepad-controllable walking policy | ![Last Commit](https://img.shields.io/github/last-commit/isri-aist/rl_controller) |
+| [rl_kinova_ball_balancing](https://github.com/bastien-muraccioli/rl_kinova_ball_balancing_mc_controller) | Kinova Gen 3 | Bastien Muraccioli, Mathieu Celerier ([CNRS-AIST JRL](https://jrl-umi3218.github.io/)) | F/T sensor-based ball balancing policy | ![Last Commit](https://img.shields.io/github/last-commit/bastien-muraccioli/rl_kinova_ball_balancing_mc_controller) |
 
 ## Related Projects
 
