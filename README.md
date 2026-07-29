@@ -45,7 +45,7 @@ The "Last Updated" badge is a shields.io live badge — see CONTRIBUTING.md for 
 | Project | Robot | Author | Description | Last Updated |
 |---|---|---|---|---|
 | [hrp5p_rl_qp_controller](https://github.com/bastien-muraccioli/hrp5p_rl_qp_controller) | HRP5-p | Bastien Muraccioli, Hippolyte Leroy ([CNRS-AIST JRL](https://jrl-umi3218.github.io/)) | FSM walking policy | ![Last Commit](https://img.shields.io/github/last-commit/bastien-muraccioli/hrp5p_rl_qp_controller) |
-| [rl_controller](https://github.com/isri-aist/rl_controller) | Unitree H1 | Alice Cariou, Bastien Muraccioli, Pierre-Alexandre Leziart ([CNRS-AIST JRL](https://jrl-umi3218.github.io/)) | Gamepad-controllable walking policy | ![Last Commit](https://img.shields.io/github/last-commit/isri-aist/rl_controller) |
+| [rl_controller](https://github.com/bastien-muraccioli/rl_controller) | Unitree H1 | Alice Cariou, Bastien Muraccioli, Pierre-Alexandre Leziart ([CNRS-AIST JRL](https://jrl-umi3218.github.io/)) | Gamepad-controllable walking policy | ![Last Commit](https://img.shields.io/github/last-commit/bastien-muraccioli/rl_controller) |
 | [rl_kinova_ball_balancing](https://github.com/bastien-muraccioli/rl_kinova_ball_balancing_mc_controller) | Kinova Gen 3 | Bastien Muraccioli, Mathieu Celerier ([CNRS-AIST JRL](https://jrl-umi3218.github.io/)) | F/T sensor-based ball balancing policy | ![Last Commit](https://img.shields.io/github/last-commit/bastien-muraccioli/rl_kinova_ball_balancing_mc_controller) |
 
 ## Related Projects
