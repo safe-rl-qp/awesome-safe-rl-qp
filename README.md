@@ -30,17 +30,28 @@ This list tracks the ecosystem around the framework: the core implementation, in
 | Project | Description |
 |---|---|
 | [Acc-CBF-QP Superbuild](https://github.com/safe-rl-qp/safe-rl-qp-mc-rtc-superbuild) | CMake superbuild that installs the full framework, dependencies, and a ready-to-run Unitree H1 policy example. Start here if you want to try it out. |
-| [Acc-CBF-QP Template](https://github.com/bastien-muraccioli/new-rl-qp-controller) | Template controller for adapting the framework to a new robot or a new RL policy. Includes a roadmap of planned features. |
+| [Acc-CBF-QP Template](https://github.com/isri-aist/new-rl-qp-controller) | Template controller for adapting the framework to a new robot or a new RL policy. Includes a complete [documentation](https://isri-aist.github.io/new-rl-qp-controller/). |
 
 ## Community Controllers
 
 Controllers, robots, and RL policies built on top of the framework by the community.
 
+The framework underwent a major architectural rework. The projects below are grouped according to the architecture they were developed against.
+
 <!--
-Please keep this table sorted alphabetically by project name.
+Please keep these tables sorted alphabetically by project name.
 Format: | [Project Name](link) | Robot | Author/Org | One-line description | Last commit badge |
 The "Last Updated" badge is a shields.io live badge — see CONTRIBUTING.md for the exact syntax.
 -->
+
+### Current architecture
+
+| Project | Robot | Author | Description | Last Updated |
+|---|---|---|---|---|
+| [g1_rl_qp_controller](https://github.com/isri-aist/g1_rl_qp_controller) | Unitree G1 | Alice Cariou, Bastien Muraccioli ([CNRS-AIST JRL](https://jrl-umi3218.github.io/)) | Gamepad-controllable walking policy. Used as a base for the controller's tutorial | ![Last Commit](https://img.shields.io/github/last-commit/isri-aist/g1_rl_qp_controller) |
+| [h1_rl_qp_controller](https://github.com/Alhuuin/h1_rl_qp_controller) | Unitree H1 | Alice Cariou, Bastien Muraccioli ([CNRS-AIST JRL](https://jrl-umi3218.github.io/)) | Gamepad-controllable walking policy | ![Last Commit](https://img.shields.io/github/last-commit/Alhuuin/h1_rl_qp_controller) |
+
+### Legacy architecture
 
 | Project | Robot | Author | Description | Last Updated |
 |---|---|---|---|---|
